@@ -1,12 +1,12 @@
-# @yonycalsin/eslint-config-import-sort
+# @yonycalsin/eslint-plugin-import-sort
 
-<a href="https://github.com/yonycalsin/@yonycalsin/eslint-config-import-sort"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
-<a href="https://www.npmjs.com/@yonycalsin/eslint-config-import-sort" target="_blank">
-<img src="https://img.shields.io/npm/v/@yonycalsin/eslint-config-import-sort" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/@yonycalsin/eslint-config-import-sort" target="_blank">
-<img src="https://img.shields.io/npm/l/@yonycalsin/eslint-config-import-sort" alt="Package License" /></a>
-<a href="https://www.npmjs.com/@yonycalsin/eslint-config-import-sort" target="_blank">
-<img src="https://img.shields.io/npm/dm/@yonycalsin/eslint-config-import-sort" alt="NPM Downloads" /></a>
+<a href="https://github.com/yonycalsin/@yonycalsin/eslint-plugin-import-sort"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
+<a href="https://www.npmjs.com/@yonycalsin/eslint-plugin-import-sort" target="_blank">
+<img src="https://img.shields.io/npm/v/@yonycalsin/eslint-plugin-import-sort" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/@yonycalsin/eslint-plugin-import-sort" target="_blank">
+<img src="https://img.shields.io/npm/l/@yonycalsin/eslint-plugin-import-sort" alt="Package License" /></a>
+<a href="https://www.npmjs.com/@yonycalsin/eslint-plugin-import-sort" target="_blank">
+<img src="https://img.shields.io/npm/dm/@yonycalsin/eslint-plugin-import-sort" alt="NPM Downloads" /></a>
 <a href="https://github.com/yonycalsin"><img src="https://img.shields.io/badge/Author-Yony%20Calsin-blueviolet?style=flat-square&logo=appveyor" /></a>
 <a href="https://twitter.com/yonycalsin" target="_blank">
 <img src="https://img.shields.io/twitter/follow/yonycalsin.svg?style=social&label=Follow"></a>
@@ -15,25 +15,25 @@
 
 ```bash
 # Using npm
-npm install --save @yonycalsin/eslint-config-import-sort@latest
+npm install --save @yonycalsin/eslint-plugin-import-sort@latest
 
 # Using yarn
-yarn add @yonycalsin/eslint-config-import-sort@latest
+yarn add @yonycalsin/eslint-plugin-import-sort@latest
 ```
 
 ## Usage
 
 > eslintrc.js
 
-```json
+```jsonc
 // for react
 {
-    extends: ["@yonycalsin/eslint-config-import-sort/react"]
+    extends: ['plugin:@yonycalsin/import-sort/react']
 }
 
 // for node
 {
-    extends: ["@yonycalsin/eslint-config-import-sort/node"]
+    extends: ['plugin:@yonycalsin/import-sort/node']
 }
 ```
 
@@ -44,4 +44,4 @@ yarn add @yonycalsin/eslint-config-import-sort@latest
 
 ## License
 
-`@yonycalsin/eslint-config-import-sort` under [License.](LICENSE)
+`@yonycalsin/eslint-plugin-import-sort` under [License.](LICENSE)
