@@ -1,6 +1,6 @@
 # @yonycalsin/eslint-plugin-import-sort
 
-<a href="https://github.com/yonycalsin/@yonycalsin/eslint-plugin-import-sort"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
+<a href="https://github.com/yonycalsin/eslint-configs"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
 <a href="https://www.npmjs.com/@yonycalsin/eslint-plugin-import-sort" target="_blank">
 <img src="https://img.shields.io/npm/v/@yonycalsin/eslint-plugin-import-sort" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/@yonycalsin/eslint-plugin-import-sort" target="_blank">
