@@ -1,5 +1,5 @@
 {
-  "name": "@yonycalsin/eslint-config-import-sort",
+  "name": "@yonycalsin/eslint-plugin-import-sort",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
