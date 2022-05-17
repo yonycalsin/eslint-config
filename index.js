@@ -22,6 +22,7 @@ module.exports = {
             ],
           },
         ],
+        "simple-import-sort/exports": "error"
       },
     },
     node: {
@@ -44,6 +45,7 @@ module.exports = {
             ]
           }
         ],
+        "simple-import-sort/exports": "error"
       }
     },
   },
