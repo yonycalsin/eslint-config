@@ -22,7 +22,7 @@ module.exports = {
             ],
           },
         ],
-        "simple-import-sort/exports": "error"
+        "simple-import-sort/exports": "error",
       },
     },
     node: {
@@ -31,7 +31,7 @@ module.exports = {
         "simple-import-sort/imports": [
           "error",
           {
-            "groups": [
+            groups: [
               // Side effect imports.
               ["^\\u0000"],
               // Packages. related packages come first.
@@ -41,12 +41,12 @@ module.exports = {
               // Parent imports. Put `..` last.
               ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
               // Other relative imports. Put same-folder imports and `.` last.
-              ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"]
-            ]
-          }
+              ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+            ],
+          },
         ],
-        "simple-import-sort/exports": "error"
-      }
+        "simple-import-sort/exports": "error",
+      },
     },
   },
 };
