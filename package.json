@@ -5,12 +5,15 @@
     "bootstrap": "lerna bootstrap",
     "start": "lerna run start",
     "release": "changeset publish",
-    "version": "changeset version"
+    "version": "changeset version",
+    "prettier": "npx prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
+    "format": "npm run  prettier -- --write"
   },
   "author": "Yony Calsin",
   "devDependencies": {
     "@changesets/changelog-github": "0.4.4",
     "@changesets/cli": "2.22.0",
+    "@yonycalsin/prettier-config-react-typescript": "1.0.1",
     "lerna": "4.0.0"
   },
   "workspaces": {
