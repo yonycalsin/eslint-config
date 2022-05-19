@@ -42,6 +42,7 @@ jobs:
           publish: npm run release
           version: npm run version
           commit: "chore(release): version packages"
+          setupGitUser: false
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          CI_GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
