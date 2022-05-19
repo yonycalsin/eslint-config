@@ -1,0 +1,30 @@
+{
+  "name": "@yonycalsin/eslint-plugin-import-sort",
+  "version": "1.0.2",
+  "description": "@yonycalsin/eslint-plugin-import-sort",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/eslint-configs.git"
+  },
+  "keywords": [
+    "import-sort",
+    "eslint-config",
+    "eslint"
+  ],
+  "author": "Yony Calsin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonycalsin/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/yonycalsin/eslint-configs#readme",
+  "peerDependencies": {
+    "eslint": "^7.23.0 || ^8.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
