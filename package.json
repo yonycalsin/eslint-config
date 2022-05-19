@@ -1,12 +1,16 @@
 {
-  "name": "@yonycalsin/eslint",
+  "name": "@yonycalsin/eslint-config",
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "start": "lerna run start"
+    "start": "lerna run start",
+    "release": "changeset publish",
+    "version": "changeset version"
   },
   "author": "Yony Calsin",
   "devDependencies": {
+    "@changesets/changelog-github": "0.4.4",
+    "@changesets/cli": "2.22.0",
     "lerna": "4.0.0"
   }
 }
