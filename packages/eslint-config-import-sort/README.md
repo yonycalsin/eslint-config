@@ -1,6 +1,6 @@
 # @yonycalsin/eslint-config-import-sort
 
-We recommend installing [@yonycalsin/eslint-plugin-import-sort](https://github.com/yonycalsin/eslint-config/tree/master/packages/eslint-plugin-import-sort) instead of this package.
+⚠️ We recommend installing [@yonycalsin/eslint-plugin-import-sort](https://github.com/yonycalsin/eslint-config/tree/master/packages/eslint-plugin-import-sort) instead of this package.
 
 ## Stay in touch
 
