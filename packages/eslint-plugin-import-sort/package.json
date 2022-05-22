@@ -1,6 +1,6 @@
 {
   "name": "@yonycalsin/eslint-plugin-import-sort",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "@yonycalsin/eslint-plugin-import-sort",
   "main": "main.js",
   "repository": {
