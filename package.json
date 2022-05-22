@@ -1,24 +1,30 @@
 {
   "name": "@yonycalsin/eslint-config",
+  "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "start": "lerna run start",
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
     "release": "changeset publish",
     "version": "changeset version",
-    "prettier": "npx prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
-    "format": "npm run  prettier -- --write"
+    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
+    "format": "yarn prettier -- --write"
   },
   "author": "Yony Calsin",
   "devDependencies": {
     "@changesets/changelog-github": "0.4.4",
     "@changesets/cli": "2.22.0",
     "@yonycalsin/prettier-config-react-typescript": "1.0.1",
-    "lerna": "4.0.0"
+    "prettier": "2.6.2",
+    "turbo": "^1.2.11"
   },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  }
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.18"
 }
