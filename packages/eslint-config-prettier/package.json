@@ -1,6 +1,6 @@
 {
   "name": "@yonycalsin/eslint-config-prettier",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@yonycalsin/eslint-config-prettier",
   "main": "main.js",
   "repository": {
