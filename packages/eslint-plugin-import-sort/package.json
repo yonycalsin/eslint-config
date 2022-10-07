@@ -2,33 +2,46 @@
   "name": "@yonycalsin/eslint-plugin-import-sort",
   "version": "1.0.7",
   "description": "@yonycalsin/eslint-plugin-import-sort",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yonycalsin/eslint-config.git"
-  },
   "keywords": [
     "import-sort",
     "eslint-config",
     "eslint"
   ],
-  "author": "Yony Calsin",
-  "license": "MIT",
+  "homepage": "https://github.com/yonycalsin/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/yonycalsin/eslint-config/issues"
   },
-  "homepage": "https://github.com/yonycalsin/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "Yony Calsin",
+  "main": "./dist/main.js",
+  "module": "./dist/main.mjs",
+  "types": "./dist/main.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/main.ts --format esm,cjs --dts",
+    "dev": "tsup src/main.ts --format esm,cjs --watch --dts",
+    "clean": "rimraf -rf .turbo dist"
+  },
   "dependencies": {
     "eslint-plugin-simple-import-sort": "7.0.0"
   },
-  "publishConfig": {
-    "access": "public"
+  "devDependencies": {
+    "@types/node": "18.8.3",
+    "@yonycalsin/eslint-configs-tsconfig": "workspace:*",
+    "rimraf": "3.0.2",
+    "tsup": "6.2.3",
+    "typescript": "4.8.4"
   },
-  "files": [
-    "main.js"
-  ],
   "peerDependencies": {
     "eslint": ">=7.23.0"
   },
-  "devDependencies": {}
+  "publishConfig": {
+    "access": "public"
+  }
 }
