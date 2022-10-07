@@ -1,6 +1,7 @@
 # eslint-config
 
 ## Packages
+
 - @yonycalsin/eslint-config-import-sort `[deprecated]`
 - @yonycalsin/eslint-plugin-import-sort
 

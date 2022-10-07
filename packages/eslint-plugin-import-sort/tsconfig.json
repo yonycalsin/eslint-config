@@ -1,0 +1,4 @@
+{
+  "extends": "@yonycalsin/eslint-configs-tsconfig/node.json",
+  "include": ["."]
+}

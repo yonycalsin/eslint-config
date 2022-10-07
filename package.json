@@ -2,29 +2,30 @@
   "name": "@yonycalsin/eslint-config",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "author": "Yony Calsin",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "format": "yarn lib:pretty -- --write",
     "lint": "turbo run lint",
+    "lib:pretty": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
     "release": "changeset publish",
     "version-packages": "changeset version && yarn format",
-    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
-    "format": "yarn prettier -- --write"
+    "changeset": "changeset"
   },
-  "author": "Yony Calsin",
   "devDependencies": {
-    "@changesets/changelog-github": "0.4.4",
-    "@changesets/cli": "2.22.0",
+    "@changesets/changelog-github": "0.4.7",
+    "@changesets/cli": "2.25.0",
     "@yonycalsin/prettier-config-react-typescript": "1.0.1",
-    "prettier": "2.6.2",
-    "turbo": "^1.2.11"
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "2.3.0",
+    "turbo": "1.5.5"
   },
+  "packageManager": "pnpm@7.11.0",
   "engines": {
-    "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@1.22.18"
+  "volta": {
+    "node": "16.14.0"
+  }
 }
