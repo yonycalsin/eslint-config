@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 3.0.0
+
+### Major Changes
+
+- [#8](https://github.com/yonycalsin/eslint-config/pull/8) [`bed0061`](https://github.com/yonycalsin/eslint-config/commit/bed006104ad83644d5a62d8f3ad892a241ea4cb2) Thanks [@yonycalsin](https://github.com/yonycalsin)! - support modules
+
 ## 2.0.0
 
 ### Major Changes
