@@ -1,15 +1,9 @@
-import node from './node'
-import react from './react'
-import imports from './rules/imports'
-
-const config = {
+module.exports = {
   rules: {
-    'typescript-react-imports': imports,
+    'typescript-react-imports': require('./rules/typescript-react-imports'),
   },
   configs: {
-    react,
-    node,
+    react: require('./configs/react'),
+    node: require('./configs/node'),
   },
 }
-
-export default config

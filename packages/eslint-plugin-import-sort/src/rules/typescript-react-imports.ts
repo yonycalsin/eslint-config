@@ -1,8 +1,9 @@
 // @ts-expect-error ts(7016)
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
-import { modulesToGroups } from '../utils'
+import { modulesToGroups } from '../core/modules'
+import defineRule from './utils'
 
-export default {
+export = defineRule({
   meta: {
     type: 'layout',
     fixable: 'code',
@@ -23,11 +24,11 @@ export default {
     docs: {
       url: 'https://github.com/yonycalsin/eslint-config',
     },
-    message: {
+    messages: {
       sort: 'Run autofix to sort the imports considering the modules',
     },
   },
-  create: (context: any) => {
+  create: context => {
     const options = context.options[0] || {}
 
     const groups = modulesToGroups(options.modules ?? undefined)
@@ -36,4 +37,4 @@ export default {
 
     return simpleImportSort.rules.imports.create(context)
   },
-}
+})
