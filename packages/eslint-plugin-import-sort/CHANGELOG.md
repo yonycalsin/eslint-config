@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 4.2.0
+
+### Minor Changes
+
+- [#13](https://github.com/yonycalsin/eslint-config/pull/13) [`cae54ca`](https://github.com/yonycalsin/eslint-config/commit/cae54ca686bc555f619a6a394b0e544e95a1321f) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add typescript-react-imports rule
+
 ## 4.1.0
 
 ### Minor Changes
