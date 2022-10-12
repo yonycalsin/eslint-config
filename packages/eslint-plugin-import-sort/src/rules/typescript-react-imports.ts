@@ -33,8 +33,9 @@ export = defineRule({
 
     const groups = modulesToGroups(options.modules ?? undefined)
 
-    context.options = [{ groups }]
-
-    return simpleImportSort.rules.imports.create(context)
+    return simpleImportSort.rules.imports.create({
+      ...context,
+      options: [{ groups }],
+    })
   },
 })
