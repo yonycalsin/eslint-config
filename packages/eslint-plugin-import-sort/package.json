@@ -27,7 +27,7 @@
     "build": "run-p build:*",
     "dev": "tsup src/main.ts --format esm,cjs --watch --dts",
     "clean": "rimraf -rf .turbo dist",
-    "build:main": "tsup src/main.ts --format esm,cjs --dts",
+    "build:main": "tsup src/main.ts --format esm,cjs --dts --external eslint-plugin-simple-import-sort",
     "build:utils": "tsup src/utils.ts --format esm,cjs --dts",
     "build:constants": "tsup src/constants.ts --format esm,cjs --dts"
   },
