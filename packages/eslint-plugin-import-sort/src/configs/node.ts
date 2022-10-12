@@ -1,4 +1,4 @@
-export default {
+export = {
   plugins: ['simple-import-sort'],
   rules: {
     'simple-import-sort/imports': [

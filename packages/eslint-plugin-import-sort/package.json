@@ -27,14 +27,15 @@
     "build": "run-p build:*",
     "dev": "tsup src/main.ts --format esm,cjs --watch --dts",
     "clean": "rimraf -rf .turbo dist",
-    "build:main": "tsup src/main.ts --format esm,cjs --dts --external eslint-plugin-simple-import-sort",
-    "build:utils": "tsup src/utils.ts --format esm,cjs --dts",
-    "build:constants": "tsup src/constants.ts --format esm,cjs --dts"
+    "build:main": "tsup src/main.ts --format esm,cjs --dts --external eslint-plugin-simple-import-sort,eslint",
+    "build:modules": "tsup src/core/modules.ts --format esm,cjs --dts",
+    "build:constants": "tsup src/core/constants.ts --format esm,cjs --dts"
   },
   "dependencies": {
     "eslint-plugin-simple-import-sort": "7.0.0"
   },
   "devDependencies": {
+    "@types/eslint": "8.4.6",
     "@types/node": "18.8.3",
     "@yonycalsin/eslint-configs-tsconfig": "workspace:*",
     "npm-run-all": "4.1.5",
