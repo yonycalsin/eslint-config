@@ -35,14 +35,14 @@ importers:
       '@types/node': 18.8.3
       '@yonycalsin/eslint-configs-tsconfig': workspace:*
       eslint: '>=0.8.0'
-      eslint-plugin-simple-import-sort: 7.0.0
+      eslint-plugin-simple-import-sort: 8.0.0
       npm-run-all: 4.1.5
       rimraf: 3.0.2
       tsup: 6.2.3
       typescript: 4.8.4
     dependencies:
       eslint: 8.25.0
-      eslint-plugin-simple-import-sort: 7.0.0_eslint@8.25.0
+      eslint-plugin-simple-import-sort: 8.0.0_eslint@8.25.0
     devDependencies:
       '@types/eslint': 8.4.6
       '@types/node': 18.8.3
@@ -1120,8 +1120,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: false
 
-  /eslint-plugin-simple-import-sort/7.0.0_eslint@8.25.0:
-    resolution: {integrity: sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==}
+  /eslint-plugin-simple-import-sort/8.0.0_eslint@8.25.0:
+    resolution: {integrity: sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==}
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:
