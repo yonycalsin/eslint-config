@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 4.4.0
+
+### Minor Changes
+
+- [`9cf3cec`](https://github.com/yonycalsin/eslint-config/commit/9cf3cececf4929493aaa97753beaf6ec718db49c) Thanks [@yonycalsin](https://github.com/yonycalsin)! - update the options correctly
+
 ## 4.3.0
 
 ### Minor Changes
