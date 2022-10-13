@@ -28,7 +28,7 @@ export = defineRule({
       sort: 'Run autofix to sort the imports considering the modules',
     },
   },
-  create: context => {
+  create: function (context) {
     const options = context.options[0] || {}
 
     const groups = modulesToGroups(options.modules ?? undefined)
