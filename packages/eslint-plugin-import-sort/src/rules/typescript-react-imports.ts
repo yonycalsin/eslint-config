@@ -35,9 +35,8 @@ export = defineRule({
 
     const modifiedContext = Object.assign({}, context, {
       options: [{ groups }],
+      getSourceCode: context.getSourceCode,
     })
-
-    console.log({ originalContext: context, modifiedContext })
 
     return simpleImportSort.rules.imports.create(modifiedContext)
   },
