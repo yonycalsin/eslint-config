@@ -11,7 +11,7 @@ export = defineRule({
       url: 'https://github.com/yonycalsin/eslint-config',
     },
     messages: {
-      sort: 'Run autofix to sort the imports considering the modules',
+      sort: 'Run autofix to sort the exports',
     },
   },
   create: function (context) {
