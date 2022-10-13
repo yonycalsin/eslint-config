@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 4.3.0
+
+### Minor Changes
+
+- [#16](https://github.com/yonycalsin/eslint-config/pull/16) [`7bc126e`](https://github.com/yonycalsin/eslint-config/commit/7bc126e0310f31c8ed4d2f74e6da98429d64dcc8) Thanks [@yonycalsin](https://github.com/yonycalsin)! - fix: cannot assign to read only property 'options' of object '#<Object>' #15
+
 ## 4.2.0
 
 ### Minor Changes
