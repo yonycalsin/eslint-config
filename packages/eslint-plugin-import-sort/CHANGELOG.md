@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 5.0.0
+
+### Major Changes
+
+- [`8ae1314`](https://github.com/yonycalsin/eslint-config/commit/8ae1314b002872e905dc9b5ae9dff21670dbc6dc) Thanks [@yonycalsin](https://github.com/yonycalsin)! - TypeError: context.getSourceCode is not a function
+
 ## 4.5.0
 
 ### Minor Changes
