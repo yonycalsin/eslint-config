@@ -41,6 +41,7 @@ Extending configs
 
 Using rules
 
+```js
 module.exports = {
   plugins: ['@yonycalsin/import-sort'],
   rules: {
@@ -48,6 +49,7 @@ module.exports = {
     '@yonycalsin/import-sort/typescript-react-exports': 'error',
   },
 }
+```
 
 you can also send the custom modules
 
