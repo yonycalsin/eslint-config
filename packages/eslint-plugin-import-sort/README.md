@@ -25,6 +25,8 @@ yarn add @yonycalsin/eslint-plugin-import-sort@latest
 
 > eslintrc.js
 
+Extending configs
+
 ```jsonc
 // for react
 {
@@ -36,6 +38,23 @@ yarn add @yonycalsin/eslint-plugin-import-sort@latest
     extends: ['plugin:@yonycalsin/import-sort/node']
 }
 ```
+
+Using rules
+
+module.exports = {
+  plugins: ['@yonycalsin/import-sort'],
+  rules: {
+    '@yonycalsin/import-sort/typescript-react-imports': 'error',
+    '@yonycalsin/import-sort/typescript-react-exports': 'error',
+  },
+}
+
+you can also send the custom modules
+
+```ts
+'@yonycalsin/import-sort/typescript-react-imports': ['error', { modules: ["analytics", "screens", "utils] }],
+```
+
 
 ## Stay in touch
 
