@@ -51,10 +51,10 @@ module.exports = {
 }
 ```
 
-you can also send the custom modules
+you can also custom the modules
 
 ```ts
-'@yonycalsin/import-sort/typescript-react-imports': ['error', { modules: ["analytics", "screens", "utils] }],
+'@yonycalsin/import-sort/typescript-react-imports': ['error', { modules: ["analytics", "screens", "utils"] }],
 ```
 
 
