@@ -4,6 +4,7 @@ const DEFAULT_MODULES = [
   'tests',
   'services',
   'themes',
+  'stores',
   'router',
   'hooks',
   'screens',
