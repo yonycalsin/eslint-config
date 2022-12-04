@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 5.2.0
+
+### Minor Changes
+
+- [#23](https://github.com/yonycalsin/eslint-config/pull/23) [`753081e`](https://github.com/yonycalsin/eslint-config/commit/753081ec3233e2d66c180b5469ffabf58f509348) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add stores path as a module
+
 ## 5.1.0
 
 ### Minor Changes
