@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 5.3.0
+
+### Minor Changes
+
+- [#25](https://github.com/yonycalsin/eslint-config/pull/25) [`95df50d`](https://github.com/yonycalsin/eslint-config/commit/95df50d611536207cd400960793a72d48c783a54) Thanks [@yonycalsin](https://github.com/yonycalsin)! - add modules path to the importing list
+
 ## 5.2.0
 
 ### Minor Changes
