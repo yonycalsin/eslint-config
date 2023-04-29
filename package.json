@@ -5,18 +5,18 @@
   "author": "Yony Calsin",
   "scripts": {
     "build": "turbo run build",
+    "changeset": "changeset",
     "dev": "turbo run dev --parallel",
     "format": "yarn lib:pretty -- --write",
-    "lint": "turbo run lint",
     "lib:pretty": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
+    "lint": "turbo run lint",
     "release": "changeset publish",
-    "version-packages": "changeset version && yarn format",
-    "changeset": "changeset"
+    "version-packages": "changeset version && yarn format"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.7",
     "@changesets/cli": "2.25.0",
-    "@yonycalsin/prettier-config-react-typescript": "1.0.1",
+    "@yonycalsin/prettier-config-react-typescript": "2.0.0",
     "prettier": "2.7.1",
     "prettier-plugin-packagejson": "2.3.0",
     "turbo": "1.5.5"
