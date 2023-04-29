@@ -1,10 +1,10 @@
 {
-  "name": "@yonycalsin/eslint-config-prettier",
-  "version": "1.0.8",
-  "description": "@yonycalsin/eslint-config-prettier",
+  "name": "@yonycalsin/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "@yonycalsin/eslint-config-typescript",
   "keywords": [
     "eslint",
-    "prettier"
+    "typescript"
   ],
   "homepage": "https://github.com/yonycalsin/eslint-config#readme",
   "bugs": {
@@ -21,8 +21,16 @@
     "main.js"
   ],
   "dependencies": {
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.0.0"
+    "@typescript-eslint/eslint-plugin": "5.59.1",
+    "@typescript-eslint/parser": "5.59.1"
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0 || ^8.0.0",
+    "typescript": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
