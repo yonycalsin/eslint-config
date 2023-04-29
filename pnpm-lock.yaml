@@ -6,14 +6,14 @@ importers:
     specifiers:
       '@changesets/changelog-github': 0.4.7
       '@changesets/cli': 2.25.0
-      '@yonycalsin/prettier-config-react-typescript': 1.0.1
+      '@yonycalsin/prettier-config-react-typescript': 2.0.0
       prettier: 2.7.1
       prettier-plugin-packagejson: 2.3.0
       turbo: 1.5.5
     devDependencies:
       '@changesets/changelog-github': 0.4.7
       '@changesets/cli': 2.25.0
-      '@yonycalsin/prettier-config-react-typescript': 1.0.1
+      '@yonycalsin/prettier-config-react-typescript': 2.0.0_prettier@2.7.1
       prettier: 2.7.1
       prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
       turbo: 1.5.5
@@ -646,8 +646,12 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: false
 
-  /@yonycalsin/prettier-config-react-typescript/1.0.1:
-    resolution: {integrity: sha512-yHFhAAfVHHKDP9Gm8OpLg87sGhIuNNH29TElAkIVzd/Y6/NijtcDWPBBjxNAmHR1wnZxBXVzcQGXzBWgvZspuQ==}
+  /@yonycalsin/prettier-config-react-typescript/2.0.0_prettier@2.7.1:
+    resolution: {integrity: sha512-0KSOaVB1DoXUoRkkyO4L1C3IQHutydkkukmuug+vKLfDl+8qFXS3rtFYTcGLB1d04uMKgYyHHQczGLxRfTEm3g==}
+    dependencies:
+      prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
+    transitivePeerDependencies:
+      - prettier
     dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.2:

@@ -1,11 +1,11 @@
 {
   "name": "@yonycalsin/eslint-configs-tsconfig",
   "version": "2.0.0",
+  "private": true,
   "license": "MIT",
   "main": "main.js",
   "files": [
     "base.json",
     "node.json"
-  ],
-  "private": true
+  ]
 }

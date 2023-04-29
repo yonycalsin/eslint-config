@@ -2,29 +2,29 @@
   "name": "@yonycalsin/eslint-config-prettier",
   "version": "1.0.8",
   "description": "@yonycalsin/eslint-config-prettier",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yonycalsin/eslint-config.git"
-  },
   "keywords": [
     "eslint",
     "prettier"
   ],
-  "author": "Yony Calsin",
-  "license": "MIT",
+  "homepage": "https://github.com/yonycalsin/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/yonycalsin/eslint-config/issues"
   },
-  "homepage": "https://github.com/yonycalsin/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "Yony Calsin",
+  "main": "main.js",
+  "files": [
+    "main.js"
+  ],
   "dependencies": {
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "files": [
-    "main.js"
-  ]
+  }
 }

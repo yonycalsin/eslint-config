@@ -31,6 +31,9 @@
     "build:modules": "tsup src/core/modules.ts --format esm,cjs --dts",
     "build:constants": "tsup src/core/constants.ts --format esm,cjs --dts"
   },
+  "dependencies": {
+    "eslint-plugin-simple-import-sort": "8.0.0"
+  },
   "devDependencies": {
     "@types/eslint": "8.4.6",
     "@types/node": "18.8.3",
@@ -45,8 +48,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "eslint-plugin-simple-import-sort": "8.0.0"
   }
 }
