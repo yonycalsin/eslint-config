@@ -26,6 +26,11 @@ jobs:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
 
+      - name: Configure Git
+        run: |
+          git config --global user.name 'Yony Calsin'
+          git config --global user.email '58490737+yonycalsin@users.noreply.github.com'
+
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
         with:
@@ -50,8 +55,9 @@ jobs:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
           publish: pnpm run release
           version: pnpm run version-packages
-          commit: 'chore: version packages'
+          setupGitUser: false
           title: 'chore: version packages'
+          commit: 'chore: version packages'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
