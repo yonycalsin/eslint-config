@@ -1,0 +1,12 @@
+{
+  "name": "@examples/with-typescript",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Yony Calsin",
+  "license": "MIT",
+  "devDependencies": {
+    "@yonycalsin/eslint-config-typescript": "workspace:*",
+    "eslint": "8.39.0",
+    "typescript": "5.0.4"
+  }
+}
