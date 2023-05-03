@@ -1,0 +1,39 @@
+{
+  "name": "@yonycalsin/eslint-config-react",
+  "version": "0.0.0",
+  "description": "@yonycalsin/eslint-config-react",
+  "keywords": [
+    "eslint",
+    "react",
+    "react-hooks",
+    "jsx-a11y"
+  ],
+  "homepage": "https://github.com/yonycalsin/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/yonycalsin/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "Yony Calsin",
+  "main": "main.js",
+  "files": [
+    "main.js"
+  ],
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "8.39.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0 || ^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
