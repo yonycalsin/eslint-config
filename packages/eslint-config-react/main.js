@@ -51,4 +51,12 @@ module.exports = {
     'react/style-prop-object': 'error', // optional
     'react/void-dom-elements-no-children': 'error', // optional
   },
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      rules: {
+        'react/jsx-props-no-spreading': 'off',
+      },
+    },
+  ],
 }
