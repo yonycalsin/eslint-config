@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-react
 
+## 0.2.0
+
+### Minor Changes
+
+- [#36](https://github.com/yonycalsin/eslint-config/pull/36) [`bfbe3d6`](https://github.com/yonycalsin/eslint-config/commit/bfbe3d67bff64a27586cb94cef850675497efa93) Thanks [@yonycalsin](https://github.com/yonycalsin)! - disable react/jsx-props-no-spreading for test files
+
 ## 0.1.0
 
 ### Minor Changes
