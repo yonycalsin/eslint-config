@@ -32,7 +32,7 @@
     "build:constants": "tsup src/core/constants.ts --format esm,cjs --dts"
   },
   "dependencies": {
-    "eslint-plugin-simple-import-sort": "8.0.0"
+    "eslint-plugin-simple-import-sort": "10.0.0"
   },
   "devDependencies": {
     "@types/eslint": "8.4.6",
