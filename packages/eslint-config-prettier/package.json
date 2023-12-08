@@ -21,8 +21,8 @@
     "main.js"
   ],
   "dependencies": {
-    "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-prettier": "4.2.1"
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.0.1"
   },
   "publishConfig": {
     "access": "public"
