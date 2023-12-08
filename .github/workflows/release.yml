@@ -15,9 +15,9 @@ jobs:
 
     strategy:
       matrix:
-        node: ['16.14.0']
+        node: ['18.15.0']
         os: [ubuntu-latest]
-        pnpm: [8.6.1]
+        pnpm: [8.11.0]
 
     steps:
       - name: Checkout Code
