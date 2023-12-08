@@ -9,7 +9,16 @@ module.exports = {
     'plugin:import/typescript',
   ],
   plugins: ['@typescript-eslint', 'import'],
-  ignorePatterns: ['.eslintrc.js', '.eslintrc.cjs'],
+  ignorePatterns: [
+    '.eslintrc.js',
+    '.eslintrc.cjs',
+    '.storybook',
+    'tailwind.config.js',
+    'next.config.js',
+    'postcss.config.js',
+    'jest.config.js',
+    'cypress.config.ts',
+  ],
   settings: {
     'import/resolver': {
       typescript: {
