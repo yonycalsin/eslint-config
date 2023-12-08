@@ -7,11 +7,11 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "dev": "turbo run dev --parallel",
-    "format": "yarn lib:pretty -- --write",
+    "format": "pnpm run lib:pretty -- --write",
     "lib:pretty": "prettier --ignore-path .gitignore \"**/*.{js,json,ts,tsx,scss,css,md}\"",
     "lint": "turbo run lint",
     "release": "changeset publish",
-    "version-packages": "changeset version && yarn format"
+    "version-packages": "changeset version && pnpm run format"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.7",
