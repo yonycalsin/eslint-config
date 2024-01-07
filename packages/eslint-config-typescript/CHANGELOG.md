@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-typescript
 
+## 0.3.2
+
+### Patch Changes
+
+- [#60](https://github.com/yonycalsin/eslint-config/pull/60) [`f19ee3d`](https://github.com/yonycalsin/eslint-config/commit/f19ee3de62e6e94cea776074ad92f20cd8f6c7e1) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump eslint-plugin-import from 2.29.0 to 2.29.1
+
 ## 0.3.1
 
 ### Patch Changes
