@@ -16,13 +16,13 @@ importers:
         version: 2.27.1
       '@yonycalsin/prettier-config-react-typescript':
         specifier: 2.0.0
-        version: 2.0.0(prettier@3.1.0)
+        version: 2.0.0(prettier@3.1.1)
       prettier:
-        specifier: 3.1.0
-        version: 3.1.0
+        specifier: 3.1.1
+        version: 3.1.1
       prettier-plugin-packagejson:
         specifier: 2.4.7
-        version: 2.4.7(prettier@3.1.0)
+        version: 2.4.7(prettier@3.1.1)
       turbo:
         specifier: 1.11.1
         version: 1.11.1
@@ -1090,10 +1090,10 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  /@yonycalsin/prettier-config-react-typescript@2.0.0(prettier@3.1.0):
+  /@yonycalsin/prettier-config-react-typescript@2.0.0(prettier@3.1.1):
     resolution: {integrity: sha512-0KSOaVB1DoXUoRkkyO4L1C3IQHutydkkukmuug+vKLfDl+8qFXS3rtFYTcGLB1d04uMKgYyHHQczGLxRfTEm3g==}
     dependencies:
-      prettier-plugin-packagejson: 2.4.7(prettier@3.1.0)
+      prettier-plugin-packagejson: 2.4.7(prettier@3.1.1)
     transitivePeerDependencies:
       - prettier
     dev: true
@@ -3420,7 +3420,7 @@ packages:
       fast-diff: 1.3.0
     dev: false
 
-  /prettier-plugin-packagejson@2.4.7(prettier@3.1.0):
+  /prettier-plugin-packagejson@2.4.7(prettier@3.1.1):
     resolution: {integrity: sha512-/n1HGcBbuJyTlD3tb2/tW1mT5WIR6FCo+bAijHF6pNoSBf8YoxoskawjSY2ku9/8d6mdzci7oMchziI7CYEWYg==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -3428,7 +3428,7 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 3.1.0
+      prettier: 3.1.1
       sort-package-json: 2.6.0
       synckit: 0.8.6
     dev: true
@@ -3443,6 +3443,13 @@ packages:
     resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: false
+
+  /prettier@3.1.1:
+    resolution: {integrity: sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
