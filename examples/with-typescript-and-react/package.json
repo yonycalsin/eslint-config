@@ -8,7 +8,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@types/node": "18.19.3",
+    "@types/node": "20.11.20",
     "@types/react": "18.2.42",
     "@types/react-dom": "18.2.17",
     "@yonycalsin/eslint-config-react": "workspace:*",
