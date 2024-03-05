@@ -27,7 +27,7 @@ yarn add @yonycalsin/eslint-config-typescript
 
 ```jsonc
 {
-  "extends": ["@yonycalsin/typescript"]
+  "extends": ["@yonycalsin/typescript"],
 }
 ```
 

@@ -30,8 +30,8 @@ yarn add @yonycalsin/eslint-config-typescript @yonycalsin/eslint-config-react
   "root": true,
   "extends": ["@yonycalsin/typescript", "@yonycalsin/react"],
   "parserOptions": {
-    "project": "./tsconfig.json"
-  }
+    "project": "./tsconfig.json",
+  },
 }
 ```
 
