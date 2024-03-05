@@ -1,5 +1,13 @@
 # @examples/with-typescript
 
+## 0.1.1
+
+### Patch Changes
+
+- [#91](https://github.com/yonycalsin/eslint-config/pull/91) [`57c21a0`](https://github.com/yonycalsin/eslint-config/commit/57c21a067f718a324e8e4453891675393731f4bf) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump @types/react from 18.2.42 to 18.2.62
+
+- [#93](https://github.com/yonycalsin/eslint-config/pull/93) [`0d6d54e`](https://github.com/yonycalsin/eslint-config/commit/0d6d54e2af9c65153bfba4594c1e57ddc31f566d) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump eslint and @types/eslint
+
 ## 0.1.0
 
 ### Minor Changes
