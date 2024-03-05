@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 5.4.1
+
+### Patch Changes
+
+- [#93](https://github.com/yonycalsin/eslint-config/pull/93) [`0d6d54e`](https://github.com/yonycalsin/eslint-config/commit/0d6d54e2af9c65153bfba4594c1e57ddc31f566d) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump eslint and @types/eslint
+
 ## 5.4.0
 
 ### Minor Changes

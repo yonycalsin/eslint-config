@@ -27,7 +27,7 @@ yarn add @yonycalsin/eslint-config-prettier@latest
 
 ```jsonc
 {
-  "extends": ["@yonycalsin/prettier"]
+  "extends": ["@yonycalsin/prettier"],
 }
 ```
 
