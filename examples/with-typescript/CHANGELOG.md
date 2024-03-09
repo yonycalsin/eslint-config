@@ -1,5 +1,11 @@
 # @examples/with-typescript
 
+## 0.1.2
+
+### Patch Changes
+
+- [#95](https://github.com/yonycalsin/eslint-config/pull/95) [`cd5aa2c`](https://github.com/yonycalsin/eslint-config/commit/cd5aa2c9c7a756a6d67bea788bbe76fdb3b78f08) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps-dev): bump @types/node from 18.19.3 to 20.11.25
+
 ## 0.1.1
 
 ### Patch Changes
