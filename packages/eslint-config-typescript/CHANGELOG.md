@@ -1,5 +1,13 @@
 # @yonycalsin/eslint-config-typescript
 
+## 0.3.5
+
+### Patch Changes
+
+- [#97](https://github.com/yonycalsin/eslint-config/pull/97) [`0e395cd`](https://github.com/yonycalsin/eslint-config/commit/0e395cd4bd2925242d5114d45ca2015f4a3d0779) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump @typescript-eslint/eslint-plugin from 6.13.2 to 7.2.0
+
+- [#103](https://github.com/yonycalsin/eslint-config/pull/103) [`9948d6d`](https://github.com/yonycalsin/eslint-config/commit/9948d6d9a51a593baed836bd3393ce10f11b05ad) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump @typescript-eslint/eslint-plugin from 7.2.0 to 7.3.0
+
 ## 0.3.4
 
 ### Patch Changes
