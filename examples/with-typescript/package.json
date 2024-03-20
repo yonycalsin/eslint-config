@@ -10,6 +10,6 @@
   "devDependencies": {
     "@yonycalsin/eslint-config-typescript": "workspace:*",
     "eslint": "8.57.0",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   }
 }
