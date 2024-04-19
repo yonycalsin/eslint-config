@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-react
 
+## 0.3.2
+
+### Patch Changes
+
+- [#114](https://github.com/yonycalsin/eslint-config/pull/114) [`668c882`](https://github.com/yonycalsin/eslint-config/commit/668c882615fbdeb13562f314d9576d74e6f3144f) Thanks [@yonycalsin](https://github.com/yonycalsin)! - chore: update the eslint peer dependency version
+
 ## 0.3.1
 
 ### Patch Changes
