@@ -10,12 +10,12 @@
   "devDependencies": {
     "@types/node": "20.11.25",
     "@types/react": "18.2.62",
-    "@types/react-dom": "18.2.23",
+    "@types/react-dom": "18.3.0",
     "@yonycalsin/eslint-config-react": "workspace:*",
     "@yonycalsin/eslint-config-typescript": "workspace:*",
     "eslint": "8.57.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "18.3.1",
     "typescript": "5.4.5"
   }
 }
