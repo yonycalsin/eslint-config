@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-react
 
+## 0.3.3
+
+### Patch Changes
+
+- [#118](https://github.com/yonycalsin/eslint-config/pull/118) [`943f377`](https://github.com/yonycalsin/eslint-config/commit/943f3777eec78c4026be6de1a6aa7b5389575a44) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump eslint-plugin-react-hooks from 4.6.0 to 4.6.2
+
 ## 0.3.2
 
 ### Patch Changes
