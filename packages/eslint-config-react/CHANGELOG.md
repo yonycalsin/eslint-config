@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-react
 
+## 0.3.4
+
+### Patch Changes
+
+- [#140](https://github.com/yonycalsin/eslint-config/pull/140) [`d025b79`](https://github.com/yonycalsin/eslint-config/commit/d025b79b6db6ea3f4c3a0449f117192d9658f6da) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump eslint-plugin-react from 7.33.2 to 7.34.3
+
 ## 0.3.3
 
 ### Patch Changes
