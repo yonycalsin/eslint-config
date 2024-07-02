@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-typescript
 
+## 0.3.7
+
+### Patch Changes
+
+- [`2ca570c`](https://github.com/yonycalsin/eslint-config/commit/2ca570c7e52b87fc8b4947f2120191e8cf3756b0) Thanks [@yonycalsin](https://github.com/yonycalsin)! - chore(deps): bump @typescript-eslint/parser from 6.19.1 to 7.14.1
+
 ## 0.3.6
 
 ### Patch Changes
