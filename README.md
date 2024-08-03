@@ -8,11 +8,6 @@
 - [@yonycalsin/eslint-config-typescript](https://github.com/yonycalsin/eslint-config/tree/main/packages/eslint-config-typescript) - [![NPM Version](https://img.shields.io/npm/v/@yonycalsin/eslint-config-typescript)](https://www.npmjs.com/package/@yonycalsin/eslint-config-typescript)
 - [@yonycalsin/eslint-config-react](https://github.com/yonycalsin/eslint-config/tree/main/packages/eslint-config-react) - [![NPM Version](https://img.shields.io/npm/v/@yonycalsin/eslint-config-reac)](https://www.npmjs.com/package/@yonycalsin/eslint-config-react)
 
-## Stay in touch
-
-- Github [@yonycalsin](https://github.com/yonycalsin)
-- Twitter [@yonycalsin](https://twitter.com/yonycalsin)
-
 ## License
 
 `eslint-config` under [License.](LICENSE)
