@@ -20,8 +20,8 @@ jobs:
         pnpm: [8.11.0]
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
@@ -31,16 +31,17 @@ jobs:
           git config --global user.name 'Yony Calsin'
           git config --global user.email '58490737+yonycalsin@users.noreply.github.com'
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
         with:
           version: ${{ matrix.pnpm }}
+          run_install: false
 
-      - name: Setup Node.js (${{ matrix.node }})
-        uses: actions/setup-node@v3
+      - name: Install Node.js (${{ matrix.node }})
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-          cache: pnpm
+          cache: 'pnpm'
 
       - name: Install dependencies
         run: pnpm install
