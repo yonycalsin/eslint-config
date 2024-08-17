@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-prettier
 
+## 1.2.2
+
+### Patch Changes
+
+- [#158](https://github.com/yonycalsin/eslint-config/pull/158) [`c424e2a`](https://github.com/yonycalsin/eslint-config/commit/c424e2ab05674e6ccce972f7b3a4d309627d3a96) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump eslint-plugin-prettier from 5.1.3 to 5.2.1
+
 ## 1.2.1
 
 ### Patch Changes

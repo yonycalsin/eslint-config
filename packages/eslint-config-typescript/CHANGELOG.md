@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-config-typescript
 
+## 0.3.8
+
+### Patch Changes
+
+- [#159](https://github.com/yonycalsin/eslint-config/pull/159) [`c97ce34`](https://github.com/yonycalsin/eslint-config/commit/c97ce34b85660c113e22999a31d496304c91264b) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump @typescript-eslint/parser from 7.14.1 to 8.1.0
+
 ## 0.3.7
 
 ### Patch Changes
