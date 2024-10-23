@@ -42,8 +42,8 @@ importers:
   examples/with-typescript-and-react:
     devDependencies:
       '@types/node':
-        specifier: 22.4.0
-        version: 22.4.0
+        specifier: 22.7.7
+        version: 22.7.7
       '@types/react':
         specifier: 18.2.62
         version: 18.2.62
@@ -131,8 +131,8 @@ importers:
         specifier: 8.56.5
         version: 8.56.5
       '@types/node':
-        specifier: 22.4.0
-        version: 22.4.0
+        specifier: 22.7.7
+        version: 22.7.7
       '@yonycalsin/eslint-configs-tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
@@ -898,8 +898,8 @@ packages:
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
     dev: true
 
-  /@types/node@22.4.0:
-    resolution: {integrity: sha512-49AbMDwYUz7EXxKU/r7mXOsxwFr4BYbvB7tWYxVuLdb2ibd30ijjXINSMAHiEEZk5PCRBmW1gUeisn2VMKt3cQ==}
+  /@types/node@22.7.7:
+    resolution: {integrity: sha512-SRxCrrg9CL/y54aiMCG3edPKdprgMVGDXjA3gB8UmmBW5TcXzRUYAh8EWzTnSJFAd1rgImPELza+A3bJ+qxz8Q==}
     dependencies:
       undici-types: 6.19.6
     dev: true
