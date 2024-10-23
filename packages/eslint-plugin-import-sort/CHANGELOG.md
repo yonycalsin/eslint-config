@@ -1,5 +1,11 @@
 # @yonycalsin/eslint-plugin-import-sort
 
+## 5.4.5
+
+### Patch Changes
+
+- [#164](https://github.com/yonycalsin/eslint-config/pull/164) [`3751977`](https://github.com/yonycalsin/eslint-config/commit/375197704d5c783cc9b8e1d4515b71b856839ee8) Thanks [@dependabot](https://github.com/apps/dependabot)! - chore(deps): bump eslint-plugin-simple-import-sort from 12.1.0 to 12.1.1
+
 ## 5.4.4
 
 ### Patch Changes
